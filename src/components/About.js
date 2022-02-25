@@ -33,7 +33,9 @@ function About(){
                         <div className="articleContent aboutContent">
                             För närvarande pluggar jag till Webbutvecklare på Högskolan Väst i Trollhättan. På fritiden kodar jag lite mer och hittar på bus med mina två pojkar. Det jag brinner för är webbdesign, kodning, och film. Utöver det skapar jag musik så ofta vardagen tillåter.
                         </div>
-                
+                        <div>
+                            Test igen
+                        </div>
                     </article>
 
                     
