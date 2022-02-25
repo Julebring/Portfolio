@@ -1,0 +1,88 @@
+/* $font-color: rgb(199, 182, 144); */
+/* $font-color: #DA9B6B; */
+$font-color: #FFE1A8;
+$font_color2: rgb(13.5,19.8,32.6);
+$complement_color: #f12a0b;
+$base-color: #141413; 
+
+.cardContainer{
+    display: flex;
+    max-width:1200px;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto 150px auto;
+    text-align:center;
+    justify-content: center;
+   
+    gap: 100px;
+    
+}
+
+
+.card{
+    width: 250px;
+    height: 400px;
+    /* background-color: rgb(42, 44, 43); */
+    background-color: $font-color;
+    /* margin: 20px; */
+    border-radius: 5px;
+    border: 1px solid $font-color;
+    color: $font_color2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    position: relative;  /* så att knappen kan sättas längst ned */
+    z-index: -1;
+}
+
+.cardImage{
+    width: 250px;
+    clip-path: polygon(2% 0, 98% 0, 103% 2%, 100% 2%, 100% 100%, 0 100%, 0 2%, -3% 2%);
+}
+
+.cardTitle{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    line-height: 1.9rem;
+    text-align: center;
+}
+
+.cardPara{
+    width: 220px;
+    margin: 10px auto 10px auto;
+    text-align: left;
+    line-height: 1.3rem;
+    padding: 0 5px 0 5px;
+}
+
+.showMe{
+    padding: 5px;
+    z-index: 10;
+    width: 150px;
+    border-radius: 20px;
+    color: $base-color;
+    background-color: $complement_color;
+    outline: 2px solid $complement_color;
+	outline-offset: 5px;
+    margin: -40px auto 0 auto;
+    text-align: center;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 920px){
+    
+    .showMe{
+        margin: -40px auto 0 auto;
+        text-align: center;
+    }
+    .cardWrapper{
+        gap: 130px;
+        display:flex;
+        justify-content: center;
+        height: auto;
+        margin-bottom: 50px;
+        
+    }
+   
+}
+

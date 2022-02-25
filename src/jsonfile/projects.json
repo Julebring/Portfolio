@@ -1,0 +1,30 @@
+[
+        {   
+            "id": 1,
+            "title": "React och API",                  
+			"image": "assets/react_startrek.webp",
+            "link": "https://www.react.arque.se",
+			"bread": "En enkel sida som tillåter sökning i en API. Sidan är skapad med React och Framer Motion. Utöver det testas en lokal json-fil."
+		},
+        {   
+            "id": 2,
+            "title": "Kello's",                  
+			"image": "assets/kellos.webp",
+            "link": "https://webbkurs.ei.hv.se/~mabu0014/kurssajten/",
+			"bread": "Demosajten till en lokal restaurang. Skapad med WordPress och Elementor."
+		},
+        {   
+            "id": 3,
+            "title": "Bürge Language Service",                  
+			"image": "assets/buerge.webp",
+            "link": "https://www.buerge.se/",
+			"bread": "Webbplasten för Bürge Language Service."
+		},
+        {   
+            "id": 4,
+            "title": "Projekt Brainstorm",                  
+			"image": "assets/pb.webp",
+            "link": "https://www.pb.arque.se/",
+			"bread": "En skiss för musikbandet Projekt Brainstorms hemsida."
+		}
+    ]
